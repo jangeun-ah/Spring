@@ -16,7 +16,7 @@ function ProductDetailPage() {
 
   const [imagePreview, setImagePreview] = useState(null);
 
-  // 🔹 상품 정보를 불러와서 form에 설정
+  // 🔹 상품 정보를 불러와서 form에 설정//
   useEffect(() => {
     api.get(`/products/${id}`)
       .then(res => {
