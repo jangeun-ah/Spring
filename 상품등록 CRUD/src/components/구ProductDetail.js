@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import api from "../api";
-import ProductForm from "../components/ProductForm"; // 재사용 폼 컴포넌트
+import ProductForm from "../components/ProductForm"; // 재사용 폼 컴포넌트 수정
 
 function ProductDetailPage() {
   const { id } = useParams();
